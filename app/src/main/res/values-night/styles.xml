@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appcolor</item>
+        <item name="colorPrimaryDark">@color/appcolor</item>
+        <item name="colorAccent">@color/appcolor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/droid_arabic_kufi</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/appcolor</item>
+        <item name="colorPrimaryDark">@color/appcolor</item>
+        <item name="colorAccent">@color/appcolor</item>
+
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <!--        <item name="android:colorAccent">#f3f3f3</item>-->
+        <item name="android:textColor">@color/appcolor</item>
+        <item name="android:textColorPrimary">#575958</item>
+    </style>
+
+</resources>
